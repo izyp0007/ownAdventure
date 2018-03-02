@@ -3,7 +3,7 @@
 	<h2>"As you enter the forest the light fades. The shadows creep towards you. You look up and see eyes staring back at you"</h2>
 	<p>
 	<button v-on:click="screamRun">You let out your best scream and run deeper into the forest</button>
-	<button v-on:click="HumanSheild">You jump behind Sally hoping to use her as a human sheild</button>
+	<button v-on:click="HumanShield">You jump behind Sally hoping to use her as a human sheild</button>
       </p>
     </div>
 </template>
@@ -19,8 +19,8 @@
 	screamRun:function(){
 		this.$router.push("screamRun");
 	},
-	HumanSheild:function(){
-		this.$router.push("HumanSheild");
+	HumanShield:function(){
+		this.$router.push("HumanShield");
 	}
 	}
  }

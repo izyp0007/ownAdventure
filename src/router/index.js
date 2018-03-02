@@ -5,7 +5,7 @@ import HomePage from '@/components/start'
 import inside from '@/components/inside'
 import goWith from '@/components/goWith'
 import screamRun from '@/components/screamRun'
-import HumanSheild from '@/components/HumanSheild'
+import HumanSheild from '@/components/HumanShield'
 import jump from '@/components/jump'
 import leave from '@/components/leave'
 import scream from '@/components/scream'
@@ -45,9 +45,9 @@ export default new Router({
 	    component: screamRun
 	},
 	{
-	    path: '/HumanSheild',
-	    name: 'HumanSheild',
-	    component: HumanSheild
+	    path: '/HumanShield',
+	    name: 'HumanShield',
+	    component: HumanShield
 	}
 	,
 	{
