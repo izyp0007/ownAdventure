@@ -9,7 +9,7 @@
 
 <script>
  export default {
-     name: 'start',
+     name: 'HomePage',
      data () {
 	 return {
 	 }
@@ -17,6 +17,7 @@
     methods:{
 	HomePage:function(){
 		this.$router.push("HomePage");
+	}
 	}
  }
 	
