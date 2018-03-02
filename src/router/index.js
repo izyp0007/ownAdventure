@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HomePage from '@/components/HomePage'
+import HomePage from '@/components/start'
 import inside from '@/components/inside'
 import goWith from '@/components/goWith'
 import screamRun from '@/components/screamRun'
@@ -20,6 +21,11 @@ export default new Router({
   routes: [
     {
 	    path: '/',
+	    name: 'start',
+	    component: start
+	},
+	{
+	    path: '/HomePage',
 	    name: 'HomePage',
 	    component: HomePage
 	},
